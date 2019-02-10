@@ -90,8 +90,34 @@ input{
 }
 
 
+/*MEUS_LIVROS*/
+.meuslivros_header{
+    background-color: #009DE0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.meuslivros_header_img-logo{
+    padding-left: 15px;
+}
 
 
+.meuslivros_header_texto{
+    font-size: 14px;
+    padding-left: 80px;
+}
+
+.meuslivros_header_img-search{
+    padding-left: 70px;
+}
+
+.meuslivros_header_img-menu{
+    padding-right: 10px;
+} 
 
 
 /* este estilo aplica-se a partir de 768px em diante */
