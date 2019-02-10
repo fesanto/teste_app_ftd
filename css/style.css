@@ -146,6 +146,25 @@ input{
     padding-top: 25px;
 }
 
+.meuslivros_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meuslivros_cadastro_texto{
+    color: #6E828B;
+    font-size: 12px;
+    padding-left: 120px;
+}
+
+.meuslivros_cadastro_btn{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 0 40px;
+}
+
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
 .cadastro_header{
