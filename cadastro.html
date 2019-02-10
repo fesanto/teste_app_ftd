@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>FTD - Meus Livros</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-        <!-- <script src="main.js"></script> -->
-    </head>
 
-    <body></body>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FTD - Meus Livros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+    <a href="#"><img class="cadastro_img" src="img/left_arrow.png" alt="seta azul apontando para esquerda"></a>
+
+    <main class="container">
+
+        <header class="cadastro_header">
+            <h1 class="cadastro_header_titulo">Cadastrar Livro</h1>
+            <p class="cadastro_header_texto">Insira o código do livro</p>
+        </header>
+
+        <label for="livro">Digite o código do livro</label>
+        <input type="text" id="livro" placeholder="Digite o código do livro" pattern="[a-zA-Z0-9]+" required>
+        <!-- validação de alfanumérico -->
+
+        <section class="cadastro_btn">
+            <a href="#" class="btn cadastro_btn_verde">Cadastrar</a>
+            <a href="#" class="btn cadastro_btn_translucido">QR Code</a>
+        </section>
+
+        <section class="cadastro_footer">
+            <p><strong>Onde fica o código do livro?</strong></p>
+            <p>O código do livro está na parte de trás da capa no canto inferior e tem 6
+                dígitos.</p>
+        </section>
+
+    </main>
+</body>
+
 </html>
