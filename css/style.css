@@ -89,8 +89,37 @@ input{
     padding-top: 10px;
 }
 
-/* este estilo aplica-se a partir de 900px em diante */
-@media ( min-width: 900px ) {
+/* este estilo aplica-se a partir de 768px em diante */
+@media ( min-width: 768px ) {
+.cadastro_header{
+    margin-top: 20px;
+}
 
+.cadastro_header_titulo{
+    font-size: 48px;
+}
+
+.cadastro_header_texto{
+    font-size: 20px;
+}
+
+input{
+    width: 450px;
+    font-size: 20px;
+    margin-top: 170px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 25px 40px;
+}
+
+.cadastro_footer {
+    margin-top: 290px;
+}
+
+.cadastro_footer p{
+    font-size: 18px;
+}
 
 }
