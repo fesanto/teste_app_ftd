@@ -135,6 +135,17 @@ input{
     align-items: center;
 }
 
+.meuslivros_resultados{
+    padding: 120px 0;
+}
+
+.meuslivros_resultados_texto{
+    color: #6E828B;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-top: 25px;
+}
+
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
 .cadastro_header{
