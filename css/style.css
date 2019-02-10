@@ -4,3 +4,93 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+/* CADASTRO */
+a{
+    text-decoration: none;
+}
+
+.cadastro_img{
+    padding: 25px;
+}
+
+.cadastro_header{
+    margin-bottom: 25px;
+    color: #06A763;
+}
+
+.cadastro_header_titulo{
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+.cadastro_header_texto{
+    font-weight: 300; 
+    font-size: 15px;
+}
+
+label{
+    display: none;
+}
+
+input{
+    border: none;
+    border-bottom: 1px #4BD29A solid;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 70px;
+    font-family: "Montserrat";
+}
+
+.cadastro_btn{
+    margin-top: 50px;
+}
+
+.btn{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+.cadastro_btn_verde{
+    background-color: #07AC66;
+    margin-right: 4px;
+}
+
+.cadastro_btn_translucido{
+    background-color: #3ACC8F;
+    margin-left: 4px;
+}
+
+.cadastro_footer{
+    margin-top: 180px;
+    color: #06A763;
+}
+
+.cadastro_footer p{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* este estilo aplica-se a partir de 900px em diante */
+@media ( min-width: 900px ) {
+
+
+}
