@@ -89,6 +89,11 @@ input{
     padding-top: 10px;
 }
 
+
+
+
+
+
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
 .cadastro_header{
