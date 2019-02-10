@@ -259,4 +259,18 @@ input{
     width: 40px;
 }
 
+.qrcode_titulo{
+    font-size: 50px;
+    padding: 150px 0;
+}
+
+.qrcode_img {
+    padding-bottom: 120px;
+}
+
+.qrcode_btn{
+    padding: 45px;
+    font-size: 50px;
+}
+
 }
