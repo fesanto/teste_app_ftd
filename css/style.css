@@ -164,6 +164,33 @@ input{
     margin: 0 40px;
 }
 
+/* QRCODE */
+.qrcode_fundo{
+    background-color: #50505099;
+    color: #ffffff;
+}
+
+.qrcode_titulo{
+    font-weight: 300;
+    font-size: 30px;
+    padding: 90px 0;
+}
+
+.qrcode_img{
+    padding-bottom: 90px;
+}
+
+.qrcode_btn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
 .cadastro_header{
