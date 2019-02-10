@@ -119,6 +119,21 @@ input{
     padding-right: 10px;
 } 
 
+.meuslivros_filtro{
+    box-shadow: 0px 3px 20px 1px #135CB520;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.meuslivros_filtro a{
+    color: #707070;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
 
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
