@@ -305,4 +305,18 @@ input{
     font-size: 50px;
 }
 
+.p404_main_titulo{
+    font-size: 48px;
+}
+
+.p404_main_texto {
+    font-size: 30px;
+}
+
+.p404_main_btn{
+    border-radius: 60px;
+    padding: 30px 90px;
+    font-size: 25px;
+}
+
 }
