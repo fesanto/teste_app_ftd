@@ -223,6 +223,9 @@ input{
     padding: 15px 40px;
 }
 
+/* SUCESSO */
+
+
 /* este estilo aplica-se a partir de 768px em diante */
 @media ( min-width: 768px ) {
 .cadastro_header{
