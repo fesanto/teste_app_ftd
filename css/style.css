@@ -261,6 +261,12 @@ input{
     padding-right: 30px;
 }
 
+.meuslivros_resultados-grade_btn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
 /* QRCODE */
 .qrcode_fundo{
     background-color: #50505099;
@@ -323,6 +329,7 @@ input{
 }
 
 
+/* orentação paisagem */
 @media ( orientation:landscape ){
 .container_resultados-lista{
     width: 50%;
@@ -381,7 +388,11 @@ form{
 }
 
 .meuslivros_resultados_btn{
-    padding-top: 120px;
+    padding-top: 250px;
+}
+
+.meuslivros_resultados-grade_btn{
+    padding-top: 130px;
 }
 
 .meuslivros_cadastro{
@@ -537,17 +548,6 @@ input{
     font-size: 30px;
 }
 
-.meuslivros_cadastro_texto{
-    font-size: 25px;
-    padding-left: 200px;
-}
-
-.meuslivros_cadastro_btn {
-    height: 80px;
-    width: 80px;
-    font-size: 50px;
-}
-
 .meuslivros_resultados-lista {
     display: flex;
     flex-direction: column;
@@ -562,16 +562,27 @@ input{
     height: 30%;
 }
 
-.meuslivros_cadastro-grade_btn {
-    height: 100px;
-    width: 100px;
-    font-size: 50px;
-}
-
 .meuslivros_resultados-grade_btn{
     padding: 20px 30px 0 0;
     display: flex;
     justify-content: flex-end;
+}
+
+.meuslivros_cadastro_texto{
+    font-size: 25px;
+    padding-left: 200px;
+}
+
+.meuslivros_cadastro_btn {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+}
+
+.meuslivros_cadastro-grade_btn {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
 }
 
 .qrcode_titulo{
@@ -717,11 +728,26 @@ input{
     padding: 25px 0 0 0;
 }
 
+.meuslivros_resultados-grade{
+    padding: 25px 0 0 85px;
+}
+
+.meuslivros_resultados-grade img{
+    width: 30%;
+    height: 50%;
+}
+
 .meuslivros_cadastro_texto{
     font-size: 25px;
 }
 
 .meuslivros_cadastro_btn {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+}
+
+.meuslivros_cadastro-grade_btn {
     height: 80px;
     width: 80px;
     font-size: 50px;
@@ -735,21 +761,6 @@ input{
     padding: 350px 30px 0 0;
     display: flex;
     justify-content: flex-end;
-}
-
-.meuslivros_resultados-grade{
-    padding: 25px 0 0 85px;
-}
-
-.meuslivros_cadastro-grade_btn {
-    height: 80px;
-    width: 80px;
-    font-size: 50px;
-}
-
-.meuslivros_resultados-grade img{
-    width: 30%;
-    height: 50%;
 }
 
 .qrcode_titulo {
