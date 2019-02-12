@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
@@ -22,13 +21,25 @@
             <p class="cadastro_header_texto">Insira o código do livro</p>
         </header>
 
-        <label for="livro">Digite o código do livro</label>
-        <input type="text" id="livro" placeholder="Digite o código do livro" pattern="[a-zA-Z0-9]+" required>
-        <!-- validação de alfanumérico -->
+        <form>
+            <label for="livro">Digite o código do livro</label>
+            <input type="text" id="livro" pattern="[A-Z]{2}\d{4}+$" title="formato AA9999" required="required"
+                placeholder="Digite o código do livro" maxlength="6">
+            <!-- validação de alfanumérico -->
+        </form>
 
         <section class="cadastro_btn">
-            <a href="#" class="btn cadastro_btn_verde">Cadastrar</a>
-            <a href="#" class="btn cadastro_btn_translucido">QR Code</a>
+            <button class="btn cadastro_btn_verde">Cadastrar</button>
+            <a href="qrcode.html" class="btn cadastro_btn_translucido">QR Code</a>
+        </section>
+
+        <section class="cadastro_modal">
+            <button class="cadastro_modal_btn" aria-label="Fechar modal">&check;</button>
+            <div class="container">
+                <img class="cadastro_modal_img" src="img/success.png"
+                    alt="livro azul feliz com um símbolo de check na cor verde em cima dele">
+                <p class="cadastro_modal_texto">Livro cadastrado com sucesso!</p>
+            </div>
         </section>
 
         <section class="cadastro_footer">
@@ -36,8 +47,9 @@
             <p>O código do livro está na parte de trás da capa no canto inferior e tem 6
                 dígitos.</p>
         </section>
-
     </main>
+
+    <script src="script/style.js"></script>
 </body>
 
 </html>
