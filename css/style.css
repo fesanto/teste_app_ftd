@@ -269,9 +269,68 @@ input{
 }
 
 
+@media ( orientation:landscape ){
+.cadastro_header_titulo{
+    margin-top: -75px;
+    font-size: 25px;
+}
+
+form{
+    margin-top: -45px;
+}
+
+.cadastro_btn{
+    margin-top: -30px;
+}
+
+.cadastro_footer {
+    margin-top: 20px;
+}
+
+.cadastro_footer p{
+    padding: 10px 45px 0 45px;
+}
+
+.cadastro_modal{
+    padding-top: 55px;
+}
+
+.qrcode_titulo{
+    font-size: 25px;
+    padding: 50px 0 35px 0;
+}
+
+.qrcode_img{
+    width: 15%;
+    padding-bottom: 30px;
+}
+
+.qrcode_btn{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+}
+
+.p404_main{
+    width: 50vw;
+    display: flex;
+}
+
+.p404_main-img{
+    padding-left: 40px;
+}
+
+.p404_main_titulo{
+    width: 50vw;
+}
+
+.p404_main_btn{
+    font-size: 13px;
+}
+}       
 
 /* este estilo aplica-se a partir de 768px em diante */
-@media ( min-width: 768px ) {
+@media ( min-width: 768px ) and (orientation:portrait) {
 .cadastro_header{
     margin-top: 20px;
 }
@@ -396,3 +455,39 @@ input{
 }
 
 }
+
+@media ( min-width: 768px ) and ( orientation:landscape ){
+
+.qrcode_titulo {
+    font-size: 45px;
+    padding: 90px 0;
+}
+
+.qrcode_img {
+    width: 25%;
+    padding-bottom: 70px;
+}
+
+.qrcode_btn{
+    width: 140px;
+    height: 140px;
+    font-size: 45px;
+    border: 3px solid #ffffff;
+}
+
+.p404_main {
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+}
+
+.p404_main_titulo{
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.p404_main_btn {
+    font-size: 24px;
+}
+
+} 
