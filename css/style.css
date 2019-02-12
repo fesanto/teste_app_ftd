@@ -372,6 +372,12 @@ form{
 
 /* este estilo aplica-se a partir de 768px em diante - orentação retrato */
 @media ( min-width: 768px ) and (orientation:portrait) {
+.container_resultados{
+    width: 92%;
+    height: 70vh;
+    margin-left: 45px;
+}
+
 .cadastro_header{
     margin-top: 20px;
 }
@@ -490,8 +496,9 @@ input{
 }
 
 .meuslivros_cadastro-grade_btn {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
 }
 
 .qrcode_titulo{
