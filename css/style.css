@@ -187,12 +187,21 @@ input{
     border-bottom: 2px solid #009DE0;
 }
 
+.meuslivros_filtro-lista a {
+    color: #009DE0;
+    border-bottom: 2px solid #009DE0;
+}
+
 .meuslivros_resultados{
     padding: 120px 0;
 }
 
 .meuslivros_resultados-grade{
     padding: 45px 0;
+}
+
+.meuslivros_resultados-lista {
+    padding: 30px 0;
 }
 
 .meuslivros_resultados_texto{
