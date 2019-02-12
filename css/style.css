@@ -72,8 +72,6 @@ input{
     font-size: 15px;
 }
 
-
-
 .btn{
     font-family: "Lato", sans-serif;
     font-size: 12px;
@@ -326,6 +324,10 @@ input{
 
 
 @media ( orientation:landscape ){
+.container_resultados-lista{
+    width: 50%;
+}
+
 .cadastro_header_titulo{
     margin-top: -75px;
     font-size: 25px;
@@ -349,6 +351,41 @@ form{
 
 .cadastro_modal{
     padding-top: 55px;
+}
+
+.meuslivros_header_texto {
+    padding-left: 180px;
+}
+
+.meuslivros_header_img-search {
+    padding-left: 140px;
+}
+
+.meuslivros_resultados {
+    padding: 25px 0 0 0;
+    display: flex;
+}
+
+.meuslivros_resultados img{
+    margin-top: 30px;
+}
+
+.meuslivros_resultados-grade {
+    padding: 25px 0 0 135px;
+}
+
+.meuslivros_resultados_texto{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0 0 110px;
+}
+
+.meuslivros_resultados_btn{
+    padding-top: 120px;
+}
+
+.meuslivros_cadastro{
+    padding-left: 310px;
 }
 
 .qrcode_titulo{
@@ -489,16 +526,26 @@ input{
 }
 
 .meuslivros_resultados {
-    padding: 220px 0;
+    padding: 180px 0 100px 0;
+}
+
+.meuslivros_resultados img{
+    width: 60%;
 }
 
 .meuslivros_resultados_texto{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .meuslivros_cadastro_texto{
-    font-size: 18px;
+    font-size: 25px;
     padding-left: 200px;
+}
+
+.meuslivros_cadastro_btn {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
 }
 
 .meuslivros_resultados-lista {
@@ -515,15 +562,16 @@ input{
     height: 30%;
 }
 
-.meuslivros_cadastro_btn{
-    height: 40px;
-    width: 40px;
-}
-
 .meuslivros_cadastro-grade_btn {
     height: 100px;
     width: 100px;
     font-size: 50px;
+}
+
+.meuslivros_resultados-grade_btn{
+    padding: 20px 30px 0 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .qrcode_titulo{
@@ -559,7 +607,150 @@ input{
 
 }
 
+/* este estilo aplica-se a partir de 768px em diante - orentação paisagem */
 @media ( min-width: 768px ) and ( orientation:landscape ){
+
+.cadastro_header_titulo {
+    font-size: 45px;
+    padding-top: 150px;
+}
+
+.cadastro_header_texto {
+    font-size: 24px;
+}
+
+.cadastro_header {
+    margin-bottom: 80px;
+}
+
+input{
+    width: 350px;
+}
+
+::-webkit-input-placeholder{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 20px 30px;
+}
+
+.cadastro_btn {
+    margin-top: 10px;
+}
+
+.cadastro_footer p {
+    font-size: 18px;
+}
+
+.cadastro_footer {
+    margin-top: 100px;
+}
+
+.cadastro_modal {
+    padding-top: 150px;
+}
+
+.cadastro_modal_img{
+    width: 45%;
+}
+
+.cadastro_modal_btn {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 0 0 10px 140px
+}
+
+.cadastro_modal_texto {
+    font-size: 35px;
+    padding: 0px 100px;
+}
+
+.meuslivros_header{
+    height: 60px;
+}
+
+.meuslivros_header_img-logo{
+    width: 8%;
+    margin-left: 30px;
+}
+
+.meuslivros_header_texto {
+    font-size: 25px;
+    padding-left: 235px;
+}
+
+.meuslivros_header_img-search{
+    width: 18%;
+}
+
+.meuslivros_header_img-menu{
+    width: 4%;
+    margin-right: 20px;
+}
+
+.meuslivros_filtro{
+    height: 80px;
+}
+
+.meuslivros_filtro a{
+    font-size: 25px;
+    height: 80px;
+    width: 120px;
+}
+
+.meuslivros_resultados{
+    display: block;
+    margin-bottom: 100px;
+}
+
+.meuslivros_resultados img{
+    width: 40%;
+}
+
+.meuslivros_resultados_texto{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.meuslivros_cadastro_texto{
+    font-size: 25px;
+}
+
+.meuslivros_cadastro_btn {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+}
+
+.meuslivros_resultados_btn {
+    padding-top: 5px;
+}
+
+.meuslivros_resultados-grade_btn{
+    padding: 350px 30px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meuslivros_resultados-grade{
+    padding: 25px 0 0 85px;
+}
+
+.meuslivros_cadastro-grade_btn {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+}
+
+.meuslivros_resultados-grade img{
+    width: 30%;
+    height: 50%;
+}
 
 .qrcode_titulo {
     font-size: 45px;
